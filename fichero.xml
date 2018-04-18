@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:admin="http://webns.net/mvcb/">
+
+<rdf:Description rdf:about="www.tactilbook.com">
+	<dc:title>tactil_book</dc:title>
+	<dc:description>Libros táctiles para videntes o invidentes, una experiencia sensorial.
+Silencio un libro de poesía ilustrada el 2D diseñada para ser tocada</dc:description>
+	<dc:subject>
+		<rdf:Bag>
+			<rdf:li>tactil</rdf:li>
+			<rdf:li>Braille</rdf:li>
+			<rdf:li>Libro</rdf:li>
+			<rdf:li>ilustración</rdf:li>
+			<rdf:li>poesia</rdf:li>
+		</rdf:Bag>
+	</dc:subject>
+	<dc:creator rdfs:Literal="Jennifer Martín-Lorente Vicente" />
+	<dc:contributor rdfs:Literal="Néstor Toribio Ruiz" />
+	<dc:license rdfs:Literal="Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional." />
+	<dcterms:Created><dcterms:W3CDTF><rdf:value>2016-08-30</rdf:value></dcterms:W3CDTF></dcterms:Created>
+	<admin:generatorAgent rdf:resource="http://www.webposible.com/utilidades/dublincore-metadata-gen/" />
+</rdf:Description>
+</rdf:RDF>
